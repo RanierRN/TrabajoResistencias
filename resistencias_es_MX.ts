@@ -5,21 +5,25 @@
     <name>CodificadorDlg</name>
     <message>
         <location filename="codificador.ui" line="14"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="76"/>
         <source>Codificador</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="codificador.ui" line="66"/>
+        <location filename="codificador.ui" line="26"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="77"/>
         <source>4 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="codificador.ui" line="79"/>
+        <location filename="codificador.ui" line="39"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="78"/>
         <source>5 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="codificador.ui" line="92"/>
+        <location filename="codificador.ui" line="52"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="79"/>
         <source>Codificar</source>
         <translation type="unfinished"></translation>
     </message>

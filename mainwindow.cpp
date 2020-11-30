@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "decodificador.h"
-#include <iostream>
+#include "codificador.h"
 
 using namespace std;
 
@@ -31,7 +31,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::show_codificador_dlg()
 {
-    cout << "Hola" << endl;
+    CodificadorDlg dlg;
+    dlg.exec();
 }
 
 void MainWindow::show_decodificador_dlg()

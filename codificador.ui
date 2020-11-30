@@ -13,46 +13,6 @@
   <property name="windowTitle">
    <string>Codificador</string>
   </property>
-  <widget class="KColorButton" name="kColorBanda1">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>130</y>
-     <width>56</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="KColorButton" name="kColorBanda2">
-   <property name="geometry">
-    <rect>
-     <x>130</x>
-     <y>130</y>
-     <width>56</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="KColorButton" name="kColorBanda3">
-   <property name="geometry">
-    <rect>
-     <x>200</x>
-     <y>130</y>
-     <width>56</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="KColorButton" name="kColorBanda4">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>130</y>
-     <width>56</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QRadioButton" name="rb4Bandas">
    <property name="geometry">
     <rect>
@@ -83,7 +43,7 @@
    <property name="geometry">
     <rect>
      <x>150</x>
-     <y>90</y>
+     <y>100</y>
      <width>88</width>
      <height>34</height>
     </rect>
@@ -102,14 +62,74 @@
     </rect>
    </property>
   </widget>
+  <widget class="QLabel" name="Banda1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>58</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Banda2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>58</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Banda3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>150</y>
+     <width>58</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Banda4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>150</y>
+     <width>58</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>KColorButton</class>
-   <extends>QPushButton</extends>
-   <header>kcolorbutton.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>
