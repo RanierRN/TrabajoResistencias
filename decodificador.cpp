@@ -88,7 +88,7 @@ void DecodificadorDlg::Conversion() {
         T = DecodificadorDlg::Banda5();
         string Unidad =" Ohms";
         Valor = L1 + L2 + L3 + Unidad + T;
-        cout << L1 + L2 + L3 + T << " Ohms" << endl;
+        cout << L1 + L2 + L3 + T << " Ohms " << endl;
         char cuenta[20];
         strcpy(cuenta, Valor.c_str());
         ui->lblResistencia->setText(cuenta);

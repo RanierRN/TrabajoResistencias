@@ -36,7 +36,6 @@ private:
     basic_string<char> Banda5();
 };
 
-
 class Colores{
 public:
     static const QColor Negro;

@@ -82,68 +82,68 @@ void CodificadorDlg::Codificar(){
 void CodificadorDlg::Banda1(string g){
     if (g == "0") //negro
         ui->Banda1->setStyleSheet("background-color: rgb(0, 0, 0);");
-    if (g == "1") //cafe
+    else if (g == "1") //cafe
         ui->Banda1->setStyleSheet("background-color: rgb(152, 101, 54);");
-    if (g == "2") //rojo
+    else if (g == "2") //rojo
         ui->Banda1->setStyleSheet("background-color: rgb(255, 0, 0);");
-    if (g == "3") //naranja
+    else if (g == "3") //naranja
         ui->Banda1->setStyleSheet("background-color: rgb(255, 127, 0);");
-    if (g == "4") //amarillo
+    else if (g == "4") //amarillo
         ui->Banda1->setStyleSheet("background-color: rgb(248, 255, 0);");
-    if (g == "5") //verde
+    else if (g == "5") //verde
         ui->Banda1->setStyleSheet("background-color: rgb(0, 255, 0);");
-    if (g == "6") //azul
+    else if (g == "6") //azul
         ui->Banda1->setStyleSheet("background-color: rgb(0, 0, 255);");
-    if (g == "7") //violeta
+    else if (g == "7") //violeta
         ui->Banda1->setStyleSheet("background-color: rgb(150, 0, 255);");
-    if (g == "8") //gris
+    else if (g == "8") //gris
         ui->Banda1->setStyleSheet("background-color: rgb(156, 156, 156);");
-    if (g == "9") //blanco
+    else if (g == "9") //blanco
         ui->Banda1->setStyleSheet("background-color: rgb(255, 255, 255);");
 }
 
 void CodificadorDlg::Banda2(string h){
     if (h == "0") //negro
         ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
-    if (h == "1") //cafe
+    else if (h == "1") //cafe
         ui->Banda2->setStyleSheet("background-color: rgb(152, 101, 54);");
-    if (h == "2") //rojo
+    else if (h == "2") //rojo
         ui->Banda2->setStyleSheet("background-color: rgb(255, 0, 0);");
-    if (h == "3") //naranja
+    else if (h == "3") //naranja
         ui->Banda2->setStyleSheet("background-color: rgb(255, 127, 0);");
-    if (h == "4") //amarillo
+    else if (h == "4") //amarillo
         ui->Banda2->setStyleSheet("background-color: rgb(248, 255, 0);");
-    if (h == "5") //verde
+    else if (h == "5") //verde
         ui->Banda2->setStyleSheet("background-color: rgb(0, 255, 0);");
-    if (h == "6") //azul
+    else if (h == "6") //azul
         ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 255);");
-    if (h == "7") //violeta
+    else if (h == "7") //violeta
         ui->Banda2->setStyleSheet("background-color: rgb(150, 0, 255);");
-    if (h == "8") //gris
+    else if (h == "8") //gris
         ui->Banda2->setStyleSheet("background-color: rgb(156, 156, 156);");
-    if (h == "9") //blanco
+    else if (h == "9") //blanco
         ui->Banda2->setStyleSheet("background-color: rgb(255, 255, 255);");
 }
 
 void CodificadorDlg::Banda3(string d){
     if (d == "0") //negro
         ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
-    if (d == "1") //cafe
+    else if (d == "1") //cafe
         ui->Banda3->setStyleSheet("background-color: rgb(152, 101, 54);");
-    if (d == "2") //rojo
+    else if (d == "2") //rojo
         ui->Banda3->setStyleSheet("background-color: rgb(255, 0, 0);");
-    if (d == "3") //naranja
+    else if (d == "3") //naranja
         ui->Banda3->setStyleSheet("background-color: rgb(255, 127, 0);");
-    if (d == "4") //amarillo
+    else if (d == "4") //amarillo
         ui->Banda3->setStyleSheet("background-color: rgb(248, 255, 0);");
-    if (d == "5") //verde
+    else if (d == "5") //verde
         ui->Banda3->setStyleSheet("background-color: rgb(0, 255, 0);");
-    if (d == "6") //azul
+    else if (d == "6") //azul
         ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 255);");
-    if (d == "7") //violeta
+    else if (d == "7") //violeta
         ui->Banda3->setStyleSheet("background-color: rgb(150, 0, 255);");
-    if (d == "8") //gris
+    else if (d == "8") //gris
         ui->Banda3->setStyleSheet("background-color: rgb(156, 156, 156);");
-    if (d == "9") //blanco
+    else if (d == "9") //blanco
         ui->Banda3->setStyleSheet("background-color: rgb(255, 255, 255);");
 }
