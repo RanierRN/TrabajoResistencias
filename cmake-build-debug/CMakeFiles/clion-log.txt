@@ -1,0 +1,49 @@
+/snap/clion/135/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ranierrn/Descargas/resistencias
+CMake Warning (dev) at /snap/clion/135/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (KF5CoreAddons) does not match the name of the calling package (KF5).  This
+  can lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/ECM/find-modules/FindKF5.cmake:78 (find_package_handle_standard_args)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /snap/clion/135/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (KF5I18n)
+  does not match the name of the calling package (KF5).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/ECM/find-modules/FindKF5.cmake:78 (find_package_handle_standard_args)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /snap/clion/135/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args`
+  (KF5WidgetsAddons) does not match the name of the calling package (KF5).
+  This can lead to problems in calling code that expects `find_package`
+  result variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/ECM/find-modules/FindKF5.cmake:78 (find_package_handle_standard_args)
+  CMakeLists.txt:21 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 1.0.0)
+ * QT
+ * Qt5Gui (required version >= 5.12.8)
+ * Qt5LinguistTools
+ * Qt5
+ * Qt5Core (required version >= 5.12.0)
+ * KF5CoreAddons (required version >= 5.2.0)
+ * Gettext
+ * KF5I18n (required version >= 5.2.0)
+ * KF5 (required version >= 5.2.0)
+ * Qt5Widgets (required version >= 5.12.0)
+ * KF5WidgetsAddons
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ranierrn/Descargas/resistencias/cmake-build-debug

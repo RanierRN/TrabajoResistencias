@@ -1,0 +1,7 @@
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/KF5CoreAddons_QCH.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/KF5I18n_QCH.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/KF5WidgetsAddons_QCH.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias.dir
+/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias_autogen.dir

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="resistencias" targetName="KF5I18n_QCH" />
+      <config projectName="resistencias" targetName="resistencias" />
+      <config projectName="resistencias" targetName="KF5WidgetsAddons_QCH" />
+      <config projectName="resistencias" targetName="resistencias_autogen" />
+      <config projectName="resistencias" targetName="KF5CoreAddons_QCH" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1kyrkkPcjKTxf7JkNHvv4QdXokV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Resistencias-master" />
+  </component>
+  <component name="RunManager" selected="CMake Application.resistencias">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KF5CoreAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5CoreAddons_QCH" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KF5I18n_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5I18n_QCH" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KF5WidgetsAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5WidgetsAddons_QCH" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resistencias" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="resistencias" RUN_TARGET_NAME="resistencias">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resistencias_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.KF5CoreAddons_QCH" />
+      <item itemvalue="CMake Application.KF5I18n_QCH" />
+      <item itemvalue="CMake Application.KF5WidgetsAddons_QCH" />
+      <item itemvalue="CMake Application.resistencias" />
+      <item itemvalue="CMake Application.resistencias_autogen" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="" />
+      <created>1606683818050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606683818050</updated>
+      <workItem from="1606683820677" duration="31000" />
+      <workItem from="1606683857556" duration="511000" />
+      <workItem from="1606684373156" duration="214000" />
+      <workItem from="1606684662308" duration="212000" />
+      <workItem from="1606685035213" duration="5248000" />
+      <workItem from="1606698500956" duration="4558000" />
+      <workItem from="1606705097758" duration="2334000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1720" height="739" key="DiffContextDialog" timestamp="1606700824814">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state x="100" y="100" width="1720" height="739" key="DiffContextDialog/0.0.1920.939@0.0.1920.939" timestamp="1606700824813" />
+    <state x="743" y="227" width="424" height="483" key="FileChooserDialogImpl" timestamp="1606699290269">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state x="743" y="227" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.939@0.0.1920.939" timestamp="1606699290269" />
+    <state width="1874" height="240" key="GridCell.Tab.0.bottom" timestamp="1606707481090">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.0.bottom/0.0.1920.939@0.0.1920.939" timestamp="1606707481090" />
+    <state width="1874" height="240" key="GridCell.Tab.0.center" timestamp="1606707481089">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.0.center/0.0.1920.939@0.0.1920.939" timestamp="1606707481089" />
+    <state width="1874" height="240" key="GridCell.Tab.0.left" timestamp="1606707481089">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.0.left/0.0.1920.939@0.0.1920.939" timestamp="1606707481089" />
+    <state width="1874" height="240" key="GridCell.Tab.0.right" timestamp="1606707481089">
+      <screen x="0" y="0" width="1920" height="939" />
+    </state>
+    <state width="1874" height="240" key="GridCell.Tab.0.right/0.0.1920.939@0.0.1920.939" timestamp="1606707481089" />
+  </component>
+</project>

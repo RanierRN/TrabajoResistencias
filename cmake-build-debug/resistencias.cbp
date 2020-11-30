@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="resistencias"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\ECM\;CMake Files\..\..\..\..\usr\share\ECM\cmake\;CMake Files\..\..\..\..\usr\share\ECM\modules\;CMake Files\..\..\..\..\usr\share\ECM\find-modules\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5CoreAddons_QCH">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5CoreAddons_QCH"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5I18n_QCH">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5I18n_QCH"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5WidgetsAddons_QCH">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5WidgetsAddons_QCH"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resistencias">
+				<Option output="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/KF5/KWidgetsAddons"/>
+					<Add directory="/usr/include/KF5"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 resistencias"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resistencias/fast">
+				<Option output="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/KF5/KWidgetsAddons"/>
+					<Add directory="/usr/include/KF5"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 resistencias/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resistencias_autogen">
+				<Option working_dir="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 resistencias_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ranierrn/Descargas/resistencias/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/mocs_compilation.cpp">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/codificador.cpp">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/codificador.h">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/codificador.ui">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/decodificador.cpp">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/decodificador.h">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/decodificador.ui">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/main.cpp">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/mainwindow.cpp">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/mainwindow.h">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/mainwindow.ui">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/resistencias_es_MX.ts">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/resistencias_es_MX.ts.rule">
+			<Option target="resistencias"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/cmake/ECMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/cmake/ECMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/modules/ECMFindModuleHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\modules\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/modules/ECMUseFindModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\modules\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\find-modules\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/share/ECM/find-modules/FindKF5.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\ECM\find-modules\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
