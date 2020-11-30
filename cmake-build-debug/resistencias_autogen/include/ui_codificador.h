@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -25,11 +26,12 @@ public:
     QRadioButton *rb4Bandas;
     QRadioButton *rb5Bandas;
     QPushButton *btnCodificar;
-    QLineEdit *lineEdit;
+    QLineEdit *ValorRes;
     QLabel *Banda1;
     QLabel *Banda2;
     QLabel *Banda3;
     QLabel *Banda4;
+    QComboBox *UnidadBox;
 
     void setupUi(QDialog *CodificadorDlg)
     {
@@ -45,9 +47,9 @@ public:
         btnCodificar = new QPushButton(CodificadorDlg);
         btnCodificar->setObjectName(QString::fromUtf8("btnCodificar"));
         btnCodificar->setGeometry(QRect(150, 100, 88, 34));
-        lineEdit = new QLineEdit(CodificadorDlg);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-        lineEdit->setGeometry(QRect(140, 50, 113, 32));
+        ValorRes = new QLineEdit(CodificadorDlg);
+        ValorRes->setObjectName(QString::fromUtf8("ValorRes"));
+        ValorRes->setGeometry(QRect(140, 50, 113, 32));
         Banda1 = new QLabel(CodificadorDlg);
         Banda1->setObjectName(QString::fromUtf8("Banda1"));
         Banda1->setGeometry(QRect(60, 150, 58, 18));
@@ -65,6 +67,13 @@ public:
         Banda4->setObjectName(QString::fromUtf8("Banda4"));
         Banda4->setGeometry(QRect(270, 150, 58, 18));
         Banda4->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        UnidadBox = new QComboBox(CodificadorDlg);
+        UnidadBox->addItem(QString());
+        UnidadBox->addItem(QString());
+        UnidadBox->addItem(QString());
+        UnidadBox->addItem(QString());
+        UnidadBox->setObjectName(QString::fromUtf8("UnidadBox"));
+        UnidadBox->setGeometry(QRect(250, 50, 101, 32));
 
         retranslateUi(CodificadorDlg);
 
@@ -81,6 +90,11 @@ public:
         Banda2->setText(QString());
         Banda3->setText(QString());
         Banda4->setText(QString());
+        UnidadBox->setItemText(0, QApplication::translate("CodificadorDlg", "Ohms", nullptr));
+        UnidadBox->setItemText(1, QApplication::translate("CodificadorDlg", "k Ohms", nullptr));
+        UnidadBox->setItemText(2, QApplication::translate("CodificadorDlg", "M Ohms", nullptr));
+        UnidadBox->setItemText(3, QApplication::translate("CodificadorDlg", "G Ohms", nullptr));
+
     } // retranslateUi
 
 };

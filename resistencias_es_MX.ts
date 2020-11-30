@@ -5,26 +5,50 @@
     <name>CodificadorDlg</name>
     <message>
         <location filename="codificador.ui" line="14"/>
-        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="76"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="85"/>
         <source>Codificador</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="codificador.ui" line="26"/>
-        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="77"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="86"/>
         <source>4 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="codificador.ui" line="39"/>
-        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="78"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="87"/>
         <source>5 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="codificador.ui" line="52"/>
-        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="79"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="88"/>
         <source>Codificar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="codificador.ui" line="143"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="93"/>
+        <source>Ohms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="codificador.ui" line="148"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="94"/>
+        <source>k Ohms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="codificador.ui" line="153"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="95"/>
+        <source>M Ohms</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="codificador.ui" line="158"/>
+        <location filename="cmake-build-debug/resistencias_autogen/include/ui_codificador.h" line="96"/>
+        <source>G Ohms</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

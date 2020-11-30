@@ -22,5 +22,9 @@ public:
 
 private:
     Ui::CodificadorDlg *ui;
+    bool using_5bands = true;
+
+    void bands_changed();
+    void Codificar();
 };
 #endif //RESISTENCIAS_CODIFICADOR_H

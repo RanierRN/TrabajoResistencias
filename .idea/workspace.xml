@@ -39,7 +39,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="Habilitación de Codificador">
+    <list default="true" id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="Cambios graficos e integración de ventana Codificador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/codificador.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/codificador.cpp.o" afterDir="false" />
@@ -47,13 +47,11 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/mainwindow.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/mainwindow.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/resistencias_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/resistencias_autogen/mocs_compilation.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/ParseCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/resistencias" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resistencias" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/resistencias_autogen/mocs_compilation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resistencias_autogen/mocs_compilation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/resistencias_autogen/include/ui_codificador.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resistencias_autogen/include/ui_codificador.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codificador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codificador.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codificador.h" beforeDir="false" afterPath="$PROJECT_DIR$/codificador.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codificador.ui" beforeDir="false" afterPath="$PROJECT_DIR$/codificador.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resistencias_es_MX.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resistencias_es_MX.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,7 @@
       <workItem from="1606684662308" duration="212000" />
       <workItem from="1606685035213" duration="5248000" />
       <workItem from="1606698500956" duration="4558000" />
-      <workItem from="1606705097758" duration="4247000" />
+      <workItem from="1606705097758" duration="9886000" />
     </task>
     <task id="LOCAL-00001" summary="Release Decodificador de Resistencias (Codificador deshabilitado)">
       <created>1606707641784</created>
@@ -166,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606708549224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambios graficos e integración de ventana Codificador">
+      <created>1606711576544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606711576544</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cambios graficos e integración de ventana Codificador">
+      <created>1606711640000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606711640002</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Release Decodificador de Resistencias (Codificador deshabilitado)" />
     <MESSAGE value="Habilitación de Codificador" />
-    <option name="LAST_COMMIT_MESSAGE" value="Habilitación de Codificador" />
+    <MESSAGE value="Cambios graficos e integración de ventana Codificador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios graficos e integración de ventana Codificador" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="131" width="800" height="676" key="#Deployment" timestamp="1606707937415">
@@ -213,25 +226,25 @@
       <screen x="0" y="0" width="1920" height="939" />
     </state>
     <state x="743" y="227" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.939@0.0.1920.939" timestamp="1606699290269" />
-    <state width="1874" height="240" key="GridCell.Tab.0.bottom" timestamp="1606711515404">
+    <state width="1874" height="240" key="GridCell.Tab.0.bottom" timestamp="1606718618820">
       <screen x="0" y="0" width="1920" height="939" />
     </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.bottom/0.0.1920.939@0.0.1920.939" timestamp="1606711515404" />
-    <state width="1874" height="240" key="GridCell.Tab.0.center" timestamp="1606711515403">
+    <state width="1874" height="240" key="GridCell.Tab.0.bottom/0.0.1920.939@0.0.1920.939" timestamp="1606718618820" />
+    <state width="1874" height="240" key="GridCell.Tab.0.center" timestamp="1606718618819">
       <screen x="0" y="0" width="1920" height="939" />
     </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.center/0.0.1920.939@0.0.1920.939" timestamp="1606711515403" />
-    <state width="1874" height="240" key="GridCell.Tab.0.left" timestamp="1606711515403">
+    <state width="1874" height="240" key="GridCell.Tab.0.center/0.0.1920.939@0.0.1920.939" timestamp="1606718618819" />
+    <state width="1874" height="240" key="GridCell.Tab.0.left" timestamp="1606718618819">
       <screen x="0" y="0" width="1920" height="939" />
     </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.left/0.0.1920.939@0.0.1920.939" timestamp="1606711515403" />
-    <state width="1874" height="240" key="GridCell.Tab.0.right" timestamp="1606711515404">
+    <state width="1874" height="240" key="GridCell.Tab.0.left/0.0.1920.939@0.0.1920.939" timestamp="1606718618819" />
+    <state width="1874" height="240" key="GridCell.Tab.0.right" timestamp="1606718618819">
       <screen x="0" y="0" width="1920" height="939" />
     </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.right/0.0.1920.939@0.0.1920.939" timestamp="1606711515404" />
-    <state x="560" y="192" key="Vcs.Push.Dialog.v2" timestamp="1606708557289">
+    <state width="1874" height="240" key="GridCell.Tab.0.right/0.0.1920.939@0.0.1920.939" timestamp="1606718618819" />
+    <state x="560" y="192" key="Vcs.Push.Dialog.v2" timestamp="1606711642029">
       <screen x="0" y="0" width="1920" height="939" />
     </state>
-    <state x="560" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.939@0.0.1920.939" timestamp="1606708557289" />
+    <state x="560" y="192" key="Vcs.Push.Dialog.v2/0.0.1920.939@0.0.1920.939" timestamp="1606711642029" />
   </component>
 </project>

@@ -5,6 +5,7 @@ CMakeFiles/resistencias.dir/codificador.cpp.o: ../codificador.cpp
 CMakeFiles/resistencias.dir/codificador.cpp.o: ../codificador.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: ../mainwindow.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -55,6 +56,7 @@ CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -109,10 +111,12 @@ CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
@@ -120,7 +124,11 @@ CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -129,7 +137,12 @@ CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
 CMakeFiles/resistencias.dir/codificador.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h

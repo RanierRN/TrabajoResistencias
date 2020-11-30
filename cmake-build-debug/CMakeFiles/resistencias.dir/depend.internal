@@ -6,6 +6,7 @@ CMakeFiles/resistencias.dir/codificador.cpp.o
  /home/ranierrn/Descargas/resistencias/codificador.h
  /home/ranierrn/Descargas/resistencias/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -56,6 +57,7 @@ CMakeFiles/resistencias.dir/codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
@@ -110,10 +112,12 @@ CMakeFiles/resistencias.dir/codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
@@ -121,7 +125,11 @@ CMakeFiles/resistencias.dir/codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QRadioButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -130,7 +138,12 @@ CMakeFiles/resistencias.dir/codificador.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qradiobutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
