@@ -26,5 +26,8 @@ private:
 
     void bands_changed();
     void Codificar();
+    void Banda1(string g);
+    void Banda2(string h);
+    void Banda3(string d);
 };
 #endif //RESISTENCIAS_CODIFICADOR_H

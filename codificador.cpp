@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 #include "./ui_codificador.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -29,12 +30,18 @@ void CodificadorDlg::bands_changed(){
 }
 
 void CodificadorDlg::Codificar(){
-    string ValorResistencia;
-    ValorResistencia = ui->ValorRes->text().toInt();
+    string ValorResistencia, Valor;
+    ValorResistencia = ui->ValorRes->text().toStdString();
+
     bool x, y;
     x = ui->rb4Bandas->isChecked();
     y = ui->rb5Bandas->isChecked();
     if (x == 1){
+        string Banda1, Banda2;
+        Banda1 = ValorResistencia[0];
+        Banda2 = ValorResistencia[1];
+        CodificadorDlg::Banda1(Banda1);
+        CodificadorDlg::Banda2(Banda2);
         if (ui->UnidadBox->currentIndex() == 0){
             ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);"); // Negro
         }
@@ -50,6 +57,13 @@ void CodificadorDlg::Codificar(){
     }
 
     if (y == 1){
+        string Banda1, Banda2, Banda3;
+        Banda1 = ValorResistencia[0];
+        Banda2 = ValorResistencia[1];
+        Banda3 = ValorResistencia[2];
+        CodificadorDlg::Banda1(Banda1);
+        CodificadorDlg::Banda2(Banda2);
+        CodificadorDlg::Banda3(Banda3);
         if (ui->UnidadBox->currentIndex() == 0){
             ui->Banda4->setStyleSheet("background-color: rgb(0, 0, 0);"); // Negro
         }
@@ -63,6 +77,73 @@ void CodificadorDlg::Codificar(){
             ui->Banda4->setStyleSheet("background-color: rgb(255, 255, 255);"); // Blanco
         }
     }
+}
 
-    ui->Banda1->setStyleSheet("background-color: rgb(255, 0, 0);");
+void CodificadorDlg::Banda1(string g){
+    if (g == "0") //negro
+        ui->Banda1->setStyleSheet("background-color: rgb(0, 0, 0);");
+    if (g == "1") //cafe
+        ui->Banda1->setStyleSheet("background-color: rgb(152, 101, 54);");
+    if (g == "2") //rojo
+        ui->Banda1->setStyleSheet("background-color: rgb(255, 0, 0);");
+    if (g == "3") //naranja
+        ui->Banda1->setStyleSheet("background-color: rgb(255, 127, 0);");
+    if (g == "4") //amarillo
+        ui->Banda1->setStyleSheet("background-color: rgb(248, 255, 0);");
+    if (g == "5") //verde
+        ui->Banda1->setStyleSheet("background-color: rgb(0, 255, 0);");
+    if (g == "6") //azul
+        ui->Banda1->setStyleSheet("background-color: rgb(0, 0, 255);");
+    if (g == "7") //violeta
+        ui->Banda1->setStyleSheet("background-color: rgb(150, 0, 255);");
+    if (g == "8") //gris
+        ui->Banda1->setStyleSheet("background-color: rgb(156, 156, 156);");
+    if (g == "9") //blanco
+        ui->Banda1->setStyleSheet("background-color: rgb(255, 255, 255);");
+}
+
+void CodificadorDlg::Banda2(string h){
+    if (h == "0") //negro
+        ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+    if (h == "1") //cafe
+        ui->Banda2->setStyleSheet("background-color: rgb(152, 101, 54);");
+    if (h == "2") //rojo
+        ui->Banda2->setStyleSheet("background-color: rgb(255, 0, 0);");
+    if (h == "3") //naranja
+        ui->Banda2->setStyleSheet("background-color: rgb(255, 127, 0);");
+    if (h == "4") //amarillo
+        ui->Banda2->setStyleSheet("background-color: rgb(248, 255, 0);");
+    if (h == "5") //verde
+        ui->Banda2->setStyleSheet("background-color: rgb(0, 255, 0);");
+    if (h == "6") //azul
+        ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 255);");
+    if (h == "7") //violeta
+        ui->Banda2->setStyleSheet("background-color: rgb(150, 0, 255);");
+    if (h == "8") //gris
+        ui->Banda2->setStyleSheet("background-color: rgb(156, 156, 156);");
+    if (h == "9") //blanco
+        ui->Banda2->setStyleSheet("background-color: rgb(255, 255, 255);");
+}
+
+void CodificadorDlg::Banda3(string d){
+    if (d == "0") //negro
+        ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+    if (d == "1") //cafe
+        ui->Banda3->setStyleSheet("background-color: rgb(152, 101, 54);");
+    if (d == "2") //rojo
+        ui->Banda3->setStyleSheet("background-color: rgb(255, 0, 0);");
+    if (d == "3") //naranja
+        ui->Banda3->setStyleSheet("background-color: rgb(255, 127, 0);");
+    if (d == "4") //amarillo
+        ui->Banda3->setStyleSheet("background-color: rgb(248, 255, 0);");
+    if (d == "5") //verde
+        ui->Banda3->setStyleSheet("background-color: rgb(0, 255, 0);");
+    if (d == "6") //azul
+        ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 255);");
+    if (d == "7") //violeta
+        ui->Banda3->setStyleSheet("background-color: rgb(150, 0, 255);");
+    if (d == "8") //gris
+        ui->Banda3->setStyleSheet("background-color: rgb(156, 156, 156);");
+    if (d == "9") //blanco
+        ui->Banda3->setStyleSheet("background-color: rgb(255, 255, 255);");
 }
