@@ -45,60 +45,149 @@ void CodificadorDlg::Codificar(){
     if (x == 1){
         string Banda1, Banda2;
         Banda1 = Vector[0];//1
-        Banda2 = Vector[1];//10
         if (ui->UnidadBox->currentIndex() == 0){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_0(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda3_0(ValorResistencia.size());
+            }
+            else{
+                Banda2 = Vector[1];//10
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3_0(ValorResistencia.size());
+            }
         }
         if (ui->UnidadBox->currentIndex() == 1){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_k(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda3_k(ValorResistencia.size());
+            }
+            else{
+                Banda2 = Vector[1];//10
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3_k(ValorResistencia.size());
+            }
         }
         if (ui->UnidadBox->currentIndex() == 2){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_m(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda3_m(ValorResistencia.size());
+            }
+            else{
+                Banda2 = Vector[1];//10
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3_m(ValorResistencia.size());
+            }
         }
-        if (ui->UnidadBox->currentIndex() == 3){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_g(ValorResistencia.size());
+        if (ui->UnidadBox->currentIndex() == 3) {
+            if (ValorResistencia.size() == 1) {
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda3_g(ValorResistencia.size());
+            } else {
+                Banda2 = Vector[1];//10
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3_g(ValorResistencia.size());
+            }
         }
     }
 
     if (y == 1){
         string Banda1, Banda2, Banda3;
         Banda1 = ValorResistencia[0];
-        Banda2 = ValorResistencia[1];
-        Banda3 = ValorResistencia[2];
-        CodificadorDlg::Banda1(Banda1);
-        CodificadorDlg::Banda2(Banda2);
-        CodificadorDlg::Banda3(Banda3);
         if (ui->UnidadBox->currentIndex() == 0){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3(Banda3);
-            CodificadorDlg::Banda4_0(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_0(ValorResistencia.size());
+            }
+            else if(ValorResistencia.size() == 2){
+                Banda2 = ValorResistencia[1];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_0(ValorResistencia.size());
+            }
+            else{
+                Banda3 = ValorResistencia[2];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3(Banda3);
+                CodificadorDlg::Banda4_0(ValorResistencia.size());
+            }
         }
         if (ui->UnidadBox->currentIndex() == 1){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3(Banda3);
-            CodificadorDlg::Banda4_k(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_k(ValorResistencia.size());
+            }
+            else if(ValorResistencia.size() == 2){
+                Banda2 = ValorResistencia[1];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_k(ValorResistencia.size());
+            }
+            else{
+                Banda3 = ValorResistencia[2];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3(Banda3);
+                CodificadorDlg::Banda4_k(ValorResistencia.size());
+            }
         }
         if (ui->UnidadBox->currentIndex() == 2){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3(Banda3);
-            CodificadorDlg::Banda4_m(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_m(ValorResistencia.size());
+            }
+            else if(ValorResistencia.size() == 2){
+                Banda2 = ValorResistencia[1];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_m(ValorResistencia.size());
+            }
+            else{
+                Banda3 = ValorResistencia[2];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3(Banda3);
+                CodificadorDlg::Banda4_m(ValorResistencia.size());
+            }
         }
         if (ui->UnidadBox->currentIndex() == 3){
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3(Banda3);
-            CodificadorDlg::Banda4_g(ValorResistencia.size());
+            if(ValorResistencia.size() == 1){
+                CodificadorDlg::Banda1(Banda1);
+                ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_g(ValorResistencia.size());
+            }
+            else if(ValorResistencia.size() == 2){
+                Banda2 = ValorResistencia[1];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                ui->Banda3->setStyleSheet("background-color: rgb(0, 0, 0);");
+                CodificadorDlg::Banda4_g(ValorResistencia.size());
+            }
+            else{
+                Banda3 = ValorResistencia[2];
+                CodificadorDlg::Banda1(Banda1);
+                CodificadorDlg::Banda2(Banda2);
+                CodificadorDlg::Banda3(Banda3);
+                CodificadorDlg::Banda4_g(ValorResistencia.size());
+            }
         }
     }
 }
