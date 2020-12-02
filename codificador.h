@@ -29,5 +29,13 @@ private:
     void Banda1(string g);
     void Banda2(string h);
     void Banda3(string d);
+    void Banda3_0(int d);
+    void Banda3_k(int d);
+    void Banda3_m(int d);
+    void Banda3_g(int d);
+    void Banda4_0(int d);
+    void Banda4_k(int d);
+    void Banda4_m(int d);
+    void Banda4_g(int d);
 };
 #endif //RESISTENCIAS_CODIFICADOR_H
