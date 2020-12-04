@@ -19,13 +19,14 @@ Q_OBJECT
 public:
     CodificadorDlg(QWidget *parent = nullptr);
     ~CodificadorDlg();
-
-private:
+    void Codificar();
     Ui::CodificadorDlg *ui;
+private:
+
     bool using_5bands = true;
 
     void bands_changed();
-    void Codificar();
+
     void Banda1(string g);
     void Banda2(string h);
     void Banda3(string d);

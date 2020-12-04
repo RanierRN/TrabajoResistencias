@@ -1,77 +1,10 @@
 #include "Includes/HEADER/FactoriaResistencia.h"
-#include "codificador.h"
 #include <iostream>
 
+using namespace std;
+
 void Resistencia4Bandas::Codificar() {
-    string ValorResistencia, Valor;
-    ValorResistencia = ui->ValorRes->text().toStdString();
-    vector<string> Vector;
-    cout << ValorResistencia.size() << endl;
-    for(int i = 0; i < ValorResistencia.size(); i++){
-        string Value;
-        Value = ValorResistencia[i];
-        Vector.push_back(Value);
-    }
-    bool x, y;
-    x = ui->rb4Bandas->isChecked();
-    y = ui->rb5Bandas->isChecked();
-
-
-
-
-    string Banda1, Banda2;
-    Banda1 = Vector[0];//1
-    if (ui->UnidadBox->currentIndex() == 0){
-        if(ValorResistencia.size() == 1){
-            CodificadorDlg::Banda1(Banda1);
-            ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
-            CodificadorDlg::Banda3_0(ValorResistencia.size());
-        }
-        else{
-            Banda2 = Vector[1];//10
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_0(ValorResistencia.size());
-        }
-    }
-    if (ui->UnidadBox->currentIndex() == 1){
-        if(ValorResistencia.size() == 1){
-            CodificadorDlg::Banda1(Banda1);
-            ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
-            CodificadorDlg::Banda3_k(ValorResistencia.size());
-        }
-        else{
-            Banda2 = Vector[1];//10
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_k(ValorResistencia.size());
-        }
-    }
-    if (ui->UnidadBox->currentIndex() == 2){
-        if(ValorResistencia.size() == 1){
-            CodificadorDlg::Banda1(Banda1);
-            ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
-            CodificadorDlg::Banda3_m(ValorResistencia.size());
-        }
-        else{
-            Banda2 = Vector[1];//10
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_m(ValorResistencia.size());
-        }
-    }
-    if (ui->UnidadBox->currentIndex() == 3) {
-        if (ValorResistencia.size() == 1) {
-            CodificadorDlg::Banda1(Banda1);
-            ui->Banda2->setStyleSheet("background-color: rgb(0, 0, 0);");
-            CodificadorDlg::Banda3_g(ValorResistencia.size());
-        } else {
-            Banda2 = Vector[1];//10
-            CodificadorDlg::Banda1(Banda1);
-            CodificadorDlg::Banda2(Banda2);
-            CodificadorDlg::Banda3_g(ValorResistencia.size());
-        }
-    }
+    cout << "F en el chat" << endl;
 }
 
 void Resistencia4Bandas::Decodificar() {

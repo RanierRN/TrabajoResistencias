@@ -14,13 +14,13 @@ public:
     virtual void Decodificar() = 0;
 };
 
-class Resistencia4Bandas: public Resistencia{
+class Resistencia4Bandas: public Resistencia, public CodificadorDlg{
 public:
     virtual void Codificar();
     virtual void Decodificar();
 };
 
-class Resistencia5Bandas: public Resistencia{
+class Resistencia5Bandas: public Resistencia, public CodificadorDlg{
 public:
     virtual void Codificar();
     virtual void Decodificar();

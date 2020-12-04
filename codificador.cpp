@@ -1,7 +1,7 @@
 #include "codificador.h"
 #include "mainwindow.h"
 #include "./ui_codificador.h"
-#include "HEADER/FactoriaResistencia.h"
+#include "HEADER/Patrones.h"
 #include <iostream>
 #include <vector>
 
@@ -44,11 +44,6 @@ void CodificadorDlg::Codificar(){
     x = ui->rb4Bandas->isChecked();
     y = ui->rb5Bandas->isChecked();
     if (x == 1){
-        Factoria fr;
-        shared_ptr<Resistencia> Resistencia4Bandas = fr.getResistencia(TipoResistencia::A);
-        Resistencia4Bandas->Codificar();
-
-
         string Banda1, Banda2;
         Banda1 = Vector[0];//1
         if (ui->UnidadBox->currentIndex() == 0){
