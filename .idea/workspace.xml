@@ -20,7 +20,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:Development" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -28,22 +28,49 @@
     <generated>
       <config projectName="resistencias" targetName="KF5I18n_QCH" />
       <config projectName="resistencias" targetName="resistencias" />
-      <config projectName="resistencias" targetName="KF5CoreAddons_QCH" />
       <config projectName="resistencias" targetName="KF5WidgetsAddons_QCH" />
       <config projectName="resistencias" targetName="resistencias_autogen" />
+      <config projectName="resistencias" targetName="KF5CoreAddons_QCH" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="Release de Codificación (sin patrones de diseño)">
+    <list default="true" id="d87a5406-24e1-4cf0-bca7-9e06911f282f" name="Default Changelist" comment="Bug fix Ver. 1.1">
+      <change afterPath="$PROJECT_DIR$/Includes/CPP/FactoriaResistencia.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Includes/HEADER/FactoriaResistencia.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Includes/HEADER/Patrones.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/codificador.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/codificador.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5CoreAddons_QCH.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5CoreAddons_QCH.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5I18n_QCH.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5I18n_QCH.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5WidgetsAddons_QCH.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KF5WidgetsAddons_QCH.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenUsed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenUsed.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_es_MX.ts_lst_file" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/resistencias_es_MX.ts_lst_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/resistencias" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resistencias" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/resistencias.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/resistencias.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codificador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codificador.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,28 +102,38 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Resistencias-master" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Includes/HEADER" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.resistencias">
-    <configuration name="KF5CoreAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5CoreAddons_QCH" CONFIG_NAME="Debug">
+    <configuration name="KF5CoreAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5CoreAddons_QCH" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KF5I18n_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5I18n_QCH" CONFIG_NAME="Debug">
+    <configuration name="KF5I18n_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5I18n_QCH" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KF5WidgetsAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5WidgetsAddons_QCH" CONFIG_NAME="Debug">
+    <configuration name="KF5WidgetsAddons_QCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="KF5WidgetsAddons_QCH" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resistencias" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="resistencias" RUN_TARGET_NAME="resistencias">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="resistencias_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias_autogen" CONFIG_NAME="Debug">
+    <configuration name="resistencias" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="resistencias" RUN_TARGET_NAME="resistencias">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resistencias_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="resistencias" TARGET_NAME="resistencias_autogen" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,7 +163,11 @@
       <workItem from="1606705097758" duration="10134000" />
       <workItem from="1606765628318" duration="7938000" />
       <workItem from="1606778255506" duration="3761000" />
-      <workItem from="1606930928702" duration="3936000" />
+      <workItem from="1606930928702" duration="4927000" />
+      <workItem from="1606950483690" duration="32000" />
+      <workItem from="1606950586661" duration="2196000" />
+      <workItem from="1607024265644" duration="2088000" />
+      <workItem from="1607042543498" duration="5350000" />
     </task>
     <task id="LOCAL-00001" summary="Release Decodificador de Resistencias (Codificador deshabilitado)">
       <created>1606707641784</created>
@@ -191,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606933973776</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Bug fix Ver. 1.1">
+      <created>1606935173693</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606935173693</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +256,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Development" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -229,40 +277,7 @@
     <MESSAGE value="1er intento de logica para codificar resistencias" />
     <MESSAGE value="Bug fix" />
     <MESSAGE value="Release de Codificación (sin patrones de diseño)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Release de Codificación (sin patrones de diseño)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="555" y="131" width="800" height="676" key="#Deployment" timestamp="1606707937415">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state x="555" y="131" width="800" height="676" key="#Deployment/0.0.1920.939@0.0.1920.939" timestamp="1606707937415" />
-    <state x="100" y="100" width="1720" height="739" key="DiffContextDialog" timestamp="1606700824814">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state x="100" y="100" width="1720" height="739" key="DiffContextDialog/0.0.1920.939@0.0.1920.939" timestamp="1606700824813" />
-    <state x="743" y="227" width="424" height="483" key="FileChooserDialogImpl" timestamp="1606699290269">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state x="743" y="227" width="424" height="483" key="FileChooserDialogImpl/0.0.1920.939@0.0.1920.939" timestamp="1606699290269" />
-    <state width="1874" height="240" key="GridCell.Tab.0.bottom" timestamp="1606934900658">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.bottom/0.0.1920.939@0.0.1920.939" timestamp="1606934900658" />
-    <state width="1874" height="240" key="GridCell.Tab.0.center" timestamp="1606934900657">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.center/0.0.1920.939@0.0.1920.939" timestamp="1606934900657" />
-    <state width="1874" height="240" key="GridCell.Tab.0.left" timestamp="1606934900657">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.left/0.0.1920.939@0.0.1920.939" timestamp="1606934900657" />
-    <state width="1874" height="240" key="GridCell.Tab.0.right" timestamp="1606934900658">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state width="1874" height="240" key="GridCell.Tab.0.right/0.0.1920.939@0.0.1920.939" timestamp="1606934900658" />
-    <state x="658" y="197" width="800" height="555" key="Vcs.Push.Dialog.v2" timestamp="1606933987148">
-      <screen x="0" y="0" width="1920" height="939" />
-    </state>
-    <state x="658" y="197" width="800" height="555" key="Vcs.Push.Dialog.v2/0.0.1920.939@0.0.1920.939" timestamp="1606933987148" />
+    <MESSAGE value="Bug fix Ver. 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug fix Ver. 1.1" />
   </component>
 </project>

@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/135/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/135/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/ranierrn/Descargas/resistencias/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/135/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/137/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/135/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -194,6 +194,33 @@ resistencias_autogen: cmake_check_build_system
 resistencias_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resistencias_autogen.dir/build.make CMakeFiles/resistencias_autogen.dir/build
 .PHONY : resistencias_autogen/fast
+
+Includes/CPP/FactoriaResistencia.o: Includes/CPP/FactoriaResistencia.cpp.o
+
+.PHONY : Includes/CPP/FactoriaResistencia.o
+
+# target to build an object file
+Includes/CPP/FactoriaResistencia.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/resistencias.dir/build.make CMakeFiles/resistencias.dir/Includes/CPP/FactoriaResistencia.cpp.o
+.PHONY : Includes/CPP/FactoriaResistencia.cpp.o
+
+Includes/CPP/FactoriaResistencia.i: Includes/CPP/FactoriaResistencia.cpp.i
+
+.PHONY : Includes/CPP/FactoriaResistencia.i
+
+# target to preprocess a source file
+Includes/CPP/FactoriaResistencia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/resistencias.dir/build.make CMakeFiles/resistencias.dir/Includes/CPP/FactoriaResistencia.cpp.i
+.PHONY : Includes/CPP/FactoriaResistencia.cpp.i
+
+Includes/CPP/FactoriaResistencia.s: Includes/CPP/FactoriaResistencia.cpp.s
+
+.PHONY : Includes/CPP/FactoriaResistencia.s
+
+# target to generate assembly for a file
+Includes/CPP/FactoriaResistencia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/resistencias.dir/build.make CMakeFiles/resistencias.dir/Includes/CPP/FactoriaResistencia.cpp.s
+.PHONY : Includes/CPP/FactoriaResistencia.cpp.s
 
 codificador.o: codificador.cpp.o
 
@@ -343,6 +370,9 @@ help:
 	@echo "... KF5WidgetsAddons_QCH"
 	@echo "... resistencias_autogen"
 	@echo "... resistencias"
+	@echo "... Includes/CPP/FactoriaResistencia.o"
+	@echo "... Includes/CPP/FactoriaResistencia.i"
+	@echo "... Includes/CPP/FactoriaResistencia.s"
 	@echo "... codificador.o"
 	@echo "... codificador.i"
 	@echo "... codificador.s"

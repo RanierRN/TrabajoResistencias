@@ -3,7 +3,7 @@
 	"CMAKE_BINARY_DIR" : "/home/ranierrn/Descargas/resistencias/cmake-build-debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/ranierrn/Descargas/resistencias/cmake-build-debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ranierrn/Descargas/resistencias",
-	"CMAKE_EXECUTABLE" : "/snap/clion/135/bin/cmake/linux/bin/cmake",
+	"CMAKE_EXECUTABLE" : "/snap/clion/137/bin/cmake/linux/bin/cmake",
 	"CMAKE_SOURCE_DIR" : "/home/ranierrn/Descargas/resistencias",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
@@ -48,6 +48,7 @@
 	[
 		"/home/ranierrn/Descargas/resistencias/cmake-build-debug",
 		"/home/ranierrn/Descargas/resistencias",
+		"/home/ranierrn/Descargas/resistencias/Includes",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
@@ -81,7 +82,7 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/snap/clion/135/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+		"/snap/clion/137/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
 	],
 	"MOC_PREDEFS_FILE" : "/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
@@ -96,6 +97,10 @@
 	"SETTINGS_FILE" : "/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/ranierrn/Descargas/resistencias/Includes/CPP/FactoriaResistencia.cpp",
+			"MU"
+		],
 		[ "/home/ranierrn/Descargas/resistencias/codificador.cpp", "MU" ],
 		[ "/home/ranierrn/Descargas/resistencias/decodificador.cpp", "MU" ],
 		[ "/home/ranierrn/Descargas/resistencias/main.cpp", "MU" ],
