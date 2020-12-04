@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ranierrn/Descargas/resistencias/Includes/CPP/FactoriaResistencia.cpp" "/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias.dir/Includes/CPP/FactoriaResistencia.cpp.o"
   "/home/ranierrn/Descargas/resistencias/codificador.cpp" "/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias.dir/codificador.cpp.o"
   "/home/ranierrn/Descargas/resistencias/decodificador.cpp" "/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias.dir/decodificador.cpp.o"
   "/home/ranierrn/Descargas/resistencias/main.cpp" "/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias.dir/main.cpp.o"
@@ -24,6 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "resistencias_autogen/include"
+  "../Includes"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

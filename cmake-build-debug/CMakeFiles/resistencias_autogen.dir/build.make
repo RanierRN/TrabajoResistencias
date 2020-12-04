@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/135/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/135/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -75,7 +75,7 @@ include CMakeFiles/resistencias_autogen.dir/progress.make
 
 CMakeFiles/resistencias_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target resistencias"
-	/snap/clion/135/bin/cmake/linux/bin/cmake -E cmake_autogen /home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenInfo.json Debug
+	/snap/clion/137/bin/cmake/linux/bin/cmake -E cmake_autogen /home/ranierrn/Descargas/resistencias/cmake-build-debug/CMakeFiles/resistencias_autogen.dir/AutogenInfo.json Debug
 
 resistencias_autogen: CMakeFiles/resistencias_autogen
 resistencias_autogen: CMakeFiles/resistencias_autogen.dir/build.make

@@ -21,6 +21,6 @@ private:
 protected:
 
     void show_decodificador_dlg();
-    //void show_codificador_dlg();
+    void show_codificador_dlg();
 };
 #endif // MAINWINDOW_H

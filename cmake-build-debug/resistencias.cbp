@@ -80,6 +80,7 @@
 					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
 					<Add directory="/home/ranierrn/Descargas/resistencias"/>
 					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/include"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/Includes"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -115,6 +116,7 @@
 					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug"/>
 					<Add directory="/home/ranierrn/Descargas/resistencias"/>
 					<Add directory="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/include"/>
+					<Add directory="/home/ranierrn/Descargas/resistencias/Includes"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
@@ -148,6 +150,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ranierrn/Descargas/resistencias/Includes/CPP/FactoriaResistencia.cpp">
+			<Option target="resistencias"/>
+		</Unit>
 		<Unit filename="/home/ranierrn/Descargas/resistencias/cmake-build-debug/resistencias_autogen/mocs_compilation.cpp">
 			<Option target="resistencias"/>
 		</Unit>

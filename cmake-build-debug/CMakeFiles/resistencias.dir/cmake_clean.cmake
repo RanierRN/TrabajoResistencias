@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/resistencias_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/resistencias_autogen.dir/ParseCache.txt"
   "resistencias_autogen"
+  "CMakeFiles/resistencias.dir/Includes/CPP/FactoriaResistencia.cpp.o"
   "CMakeFiles/resistencias.dir/codificador.cpp.o"
   "CMakeFiles/resistencias.dir/decodificador.cpp.o"
   "CMakeFiles/resistencias.dir/main.cpp.o"
